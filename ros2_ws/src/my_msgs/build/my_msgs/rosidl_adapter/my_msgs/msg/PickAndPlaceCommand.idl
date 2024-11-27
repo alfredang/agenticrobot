@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_msgs/msg/PickAndPlaceCommand.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module my_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "my_msgs/msg/PickAndPlaceCommand.msg")
+    struct PickAndPlaceCommand {
+      @verbatim (language="comment", text=
+        "\"pick_all\", \"pick_specific\", or \"count_objects\"")
+      string command_type;
+
+      @verbatim (language="comment", text=
+        "ID of the specific object to pick")
+      string object_id;
+
+      @verbatim (language="comment", text=
+        "Direction for pick_all command (false for left to right, true for right to left)")
+      boolean left_to_right;
+
+      @verbatim (language="comment", text=
+        "Position to place the object")
+      geometry_msgs::msg::Point target_position;
+    };
+  };
+};

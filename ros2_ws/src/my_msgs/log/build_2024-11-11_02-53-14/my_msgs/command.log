@@ -1,0 +1,6 @@
+Invoking command in '/home/ibrar/ros2_ws/src/my_msgs/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ibrar/ros2_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/home/ibrar/ros2_ws/src/my_msgs/install/my_msgs
+Invoked command in '/home/ibrar/ros2_ws/src/my_msgs/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ibrar/ros2_ws/src/my_msgs -DCMAKE_INSTALL_PREFIX=/home/ibrar/ros2_ws/src/my_msgs/install/my_msgs
+Invoking command in '/home/ibrar/ros2_ws/src/my_msgs/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ibrar/ros2_ws/src/my_msgs/build/my_msgs -- -j4 -l4
+Invoked command in '/home/ibrar/ros2_ws/src/my_msgs/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ibrar/ros2_ws/src/my_msgs/build/my_msgs -- -j4 -l4
+Invoking command in '/home/ibrar/ros2_ws/src/my_msgs/build/my_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ibrar/ros2_ws/src/my_msgs/build/my_msgs
+Invoked command in '/home/ibrar/ros2_ws/src/my_msgs/build/my_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ibrar/ros2_ws/src/my_msgs/build/my_msgs
