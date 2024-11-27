@@ -91,12 +91,7 @@ source install/setup.bash
 
 ```bash
 ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=127.0.0.1
-```
-
-![image](https://github.com/user-attachments/assets/7fbb7506-e2e3-43f7-88a1-766bcf00439a)
-
-
-
+```  
 
 
 **Run the Python Code:**
@@ -104,8 +99,6 @@ ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=127.0.0.
 ```bash
 streamlit run robot_agent.py --server.address 0.0.0.0
 ```
-
-![image](https://github.com/user-attachments/assets/08e3fbc5-44ba-4fd4-b9f4-ee9f9d6c152e)
 
 
 - Open the URL shown in the terminal (e.g., http://0.0.0.0:8501) in your browser to interact with the Streamlit interface.
