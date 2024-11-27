@@ -66,10 +66,11 @@ source install/setup.bash
 
 ### 6. Open Unity Project
 - Open Unity Hub and load the Unity project named Unity-Agentic-Robotics
+![image](https://github.com/user-attachments/assets/f735883e-0910-4fa7-9850-1658647b6dc3)
+
 - Once the project is open, Navigate to the Package Manager from Unity (Window > Package Manager)
 - Ensure ROS-TCP-Connector package is Installed
-
-![image](https://github.com/user-attachments/assets/f735883e-0910-4fa7-9850-1658647b6dc3)
+![image](https://github.com/user-attachments/assets/b05c2073-3c7e-4de3-b46e-33e93eefbf26)
 
 
 ### 7. Run the Entire Program
