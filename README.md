@@ -94,7 +94,7 @@ source install/setup.bash
 
 
 
-  **Run the TCP Endpoint:**
+**Run the TCP Endpoint:**
 - In a new terminal, navigate to the ROS2 workspace and run the TCP endpoint:
 
 ```bash
