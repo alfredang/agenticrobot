@@ -42,7 +42,7 @@ cd agenticrobot
 ### 3. Install Dependencies
 - Ensure your system is set up with the required tools:
 
-- Install ROS2 Iron: Follow the ROS2 Installation Guide here: https://docs.ros.org/en/iron/Installation.html
+- Install ROS2 Iron by following the ROS2 Installation Guide here: https://docs.ros.org/en/iron/Installation.html
 - Install Unity Hub: https://unity.com/unity-hub
 - Install the Unity 6(6000.0.28f1) Editor
 
