@@ -30,6 +30,7 @@ cd agenticrobot
 ```
 
 
+
 ### 2. Download ROS-TCP-Endpoint
 - Clone the ROS-TCP-Endpoint Release v0.7.0 in the ros2_ws/src/ directory.
 ```bash
@@ -37,6 +38,7 @@ cd agenticrobot
   git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
 ```
 ![image](https://github.com/user-attachments/assets/5220c768-2b1c-4ff0-b1bc-bca611282163)
+
 
 
 ### 3. Install Dependencies
@@ -49,12 +51,14 @@ cd agenticrobot
 ![image](https://github.com/user-attachments/assets/3e251e7a-aeee-4486-a06c-d9870f46a19d)
 
 
+
 ### 4. Build the ROS2 Workspace
 - Navigate to the ros2_ws directory and build the workspace:
 ```bash
 cd ros2_ws
 colcon build
 ```
+
 
 
 ### 5. Source the ROS2 Environment
@@ -64,15 +68,18 @@ source install/setup.bash
 ```
 
 
+
 ### 6. Open Unity Project
 - Open Unity Hub and load the Unity project named Unity-Agentic-Robotics
 
 ![image](https://github.com/user-attachments/assets/f735883e-0910-4fa7-9850-1658647b6dc3)
 
+
 - Once the project is open, Navigate to the Package Manager from Unity (Window > Package Manager)
 - Ensure ROS-TCP-Connector package is Installed
 
 ![image](https://github.com/user-attachments/assets/b05c2073-3c7e-4de3-b46e-33e93eefbf26)
+
 
 
 ### 7. Run the Entire Program
