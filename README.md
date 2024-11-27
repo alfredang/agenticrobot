@@ -7,7 +7,7 @@ This repository contains the source code for an agentic robotic system using Uni
 - ROS2 integration for sending and receiving commands.
 - OpenAI-powered agent for interpreting user commands and managing workflows.
 - Streamlit interface for dynamic user inputs and real-time feedback.
-- Agentic Workflow: The system uses an agentic workflow that dynamically interprets user commands, decides appropriate actions, and invokes tools for detecting, picking, and placing objects. It maintains context across commands for efficient execution of complex tasks.
+- Agentic Workflow that dynamically interprets user commands, decides appropriate actions, and invokes tools for detecting, picking, and placing objects. It maintains context across commands for efficient execution of complex tasks.
 
 ## Technologies Used
 - **Unity 6000.0.28f1**: For robotic simulation.
@@ -18,7 +18,7 @@ This repository contains the source code for an agentic robotic system using Uni
 
 ## Repository Structure
 - `robot_agent.py`: Python script for the robotic agent.
-- `Unity/`: Unity project files for the robotic simulation.
+- `Unity-Agentic-Robotics/`: Unity project files for the robotic simulation.
 - `ros2_ws/`: ROS2 workspace for communication with Unity.
 - `.gitignore`: Ignores Unity-generated and unnecessary files.
 
