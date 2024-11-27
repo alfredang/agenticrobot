@@ -77,13 +77,16 @@ source install/setup.bash
 ### 7. Run the Entire Program
 #### To run the entire program, follow these steps:
 
-- Play the Unity Game:
+**Play the Unity Game:**
 - Open Unity and press the Play button to start the simulation
 
   ![image](https://github.com/user-attachments/assets/89c77a06-3ee9-4d42-94bf-d1cfbdc3d009)
 
 
-- Run the TCP Endpoint:
+
+
+
+  **Run the TCP Endpoint:**
 - In a new terminal, navigate to the ROS2 workspace and run the TCP endpoint:
 
 ```bash
@@ -93,7 +96,10 @@ ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=127.0.0.
 ![image](https://github.com/user-attachments/assets/7fbb7506-e2e3-43f7-88a1-766bcf00439a)
 
 
-- Run the Python Code:
+
+
+
+**Run the Python Code:**
 - In another terminal, navigate to the directory containing the Python script and run it using Streamlit:
 ```bash
 streamlit run robot_agent.py --server.address 0.0.0.0
