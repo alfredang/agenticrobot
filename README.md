@@ -31,7 +31,7 @@ cd agenticrobot
 
 
 ### 2. Download ROS-TCP-Endpoint
-- Clone the ROS-TCP-Endpoint Release v0.7.0 in yur ros2_ws/src/ directory.
+- Clone the ROS-TCP-Endpoint Release v0.7.0 in the ros2_ws/src/ directory.
 ```bash
   cd ros2_ws/src/
   git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
