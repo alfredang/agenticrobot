@@ -20,14 +20,13 @@ This repository contains the source code for an agentic robotic system using Uni
 - `robot_agent.py`: Python script for the robotic agent.
 - `Unity-Agentic-Robotics/`: Unity project files for the robotic simulation.
 - `ros2_ws/`: ROS2 workspace for communication with Unity.
-- `.gitignore`: Ignores Unity-generated and unnecessary files.
 
 ## Setup Instructions
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+git clone https://github.com/alfredang/agenticrobot.git
+cd agenticrobot
 ```
 
 
